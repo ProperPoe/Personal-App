@@ -1,0 +1,166 @@
+body
+{
+    background-color: green;
+}
+
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: -15px -15px;
+}
+
+.nav-bar
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li 
+{
+    margin: 15px 15px;
+    
+}
+
+#col
+{
+    color: white;
+}
+
+#col:hover
+{
+    color: black;
+}
+
+.body
+{
+    padding: 20px;
+}
+
+#beginning
+{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+}
+
+.youtube
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.google
+{
+    text-align: center;
+    padding: 20px;
+}
+
+#video
+{
+    text-align: center;
+}
+
+.last
+{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#form1
+{
+    text-align: center;
+}
+
+.about
+{
+    text-align: center;
+}
+
+.shape
+{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    border-radius: 50px;
+    border: solid black 10px;
+}
+
+.square
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.list
+{
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 0;
+}
+
+#back
+{
+    text-align: center;
+}
+
+.back
+{
+    
+    color: white;
+    
+}
+
+button
+{
+    border: 0;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 20px;
+    
+}
+
+button:hover
+{
+    background-color: rgb(209, 49, 49);
+}
+
+button:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.input-section
+{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0;
+}
